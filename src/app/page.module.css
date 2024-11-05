@@ -144,3 +144,17 @@
   font-size: 50px;
   color: #B2987D;
 }
+
+
+/*Telas até 768px*/
+@media(max-width: 768px){
+
+  .container_sobre h1{
+    font-size: 25px;
+  }
+
+  .container_sobre p{
+    font-size: 16px;
+  }
+
+}
