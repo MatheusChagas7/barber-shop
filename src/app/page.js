@@ -28,7 +28,7 @@ export default function Home() {
     <div className={tema ? light : dark}>
       <header className={estilos.header}>
         <Image src={Logo} className={tema ? logo_light : logo_dark} alt="Logo barber shop"></Image>
-        <button onClick={trocaTema} className={tema ? btn_tema_dark : btn_tema_light}>{tema ? <BsSun/> : <BsMoon/>}</button>
+        <button onClick={trocaTema} className={tema ? btn_tema_light : btn_tema_dark}>{tema ? <BsMoon/> : <BsSun/> }</button>
       </header>
       <main className={estilos.main}>
 
